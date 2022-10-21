@@ -46,16 +46,16 @@ void setup() {
     pinMode(pinService, INPUT_PULLUP); //Service
     pinMode(pinTest, INPUT_PULLUP); //Test
     
-    pinMode(pinPad0, INPUT);// Pad start
-    pinMode(pinPad1, INPUT);
-    pinMode(pinPad2, INPUT);
-    pinMode(pinPad3, INPUT);
-    pinMode(pinPad4, INPUT);
-    pinMode(pinPad5, INPUT);
-    pinMode(pinPad6, INPUT);
-    pinMode(pinPad7, INPUT);
-    pinMode(pinPad8, INPUT);
-    pinMode(pinPad9, INPUT);// Pad end
+    pinMode(pinPad0, INPUT_PULLUP);// Pad start
+    pinMode(pinPad1, INPUT_PULLUP);
+    pinMode(pinPad2, INPUT_PULLUP);
+    pinMode(pinPad3, INPUT_PULLUP);
+    pinMode(pinPad4, INPUT_PULLUP);
+    pinMode(pinPad5, INPUT_PULLUP);
+    pinMode(pinPad6, INPUT_PULLUP);
+    pinMode(pinPad7, INPUT_PULLUP);
+    pinMode(pinPad8, INPUT_PULLUP);
+    pinMode(pinPad9, INPUT_PULLUP);// Pad end
     
     pinMode(pinCoin, INPUT_PULLUP);//Coin
 
